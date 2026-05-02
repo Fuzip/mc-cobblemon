@@ -1,10 +1,10 @@
-Minecraft Cobblemon Server
+# Minecraft Cobblemon Server
 
-# Troubleshooting
+A Docker Minecraft server with Cobblemon modpack.
 
-Minecraft server with Cobblemon modpack.
+## Troubleshooting
 
-## Downloaded architectury neoforge instead of fabric loader
+### Downloaded architectury neoforge instead of fabric loader
 
 Stop the container :
 
