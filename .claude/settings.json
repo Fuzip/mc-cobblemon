@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./server.properties)",
+      "Read(./ops.json)",
+      "Read(./whitelist.json)",
+      "Read(./banned-players.json)",
+      "Read(./banned-ips.json)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./plugins/**/config.yml)",
+      "Read(./plugins/**/config.yaml)",
+      "Read(./plugins/**/*.yml)",
+      "Read(./plugins/**/*.yaml)",
+      "Read(./plugins/**/database.properties)",
+      "Read(./plugins/**/database.yml)",
+      "Read(./eula.txt)",
+      "Read(./**/*token*)",
+      "Read(./**/*secret*)",
+      "Read(./**/*password*)",
+      "Read(./**/*credentials*)",
+      "Edit(./server.properties)",
+      "Edit(./ops.json)",
+      "Edit(./whitelist.json)",
+      "Edit(./banned-players.json)",
+      "Edit(./banned-ips.json)",
+      "Edit(./.env)",
+      "Edit(./.env.*)",
+      "Edit(./plugins/**/config.yml)",
+      "Edit(./plugins/**/config.yaml)",
+      "Bash(rcon *)",
+      "Bash(systemctl * minecraft*)",
+      "Bash(kill *)"
+    ]
+  }
+}
