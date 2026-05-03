@@ -42,7 +42,6 @@ services:
         jade:15.10.5+fabric
         rctapi:0.15.2-beta
         rctmod:0.18.1-beta
-        reinforced-chests:3.1.1+1.21.1
         simpletms-tms-and-trs-for-cobblemon:2.3.3
         travelersbackpack:1.21.1-10.1.34
         treechop:0.19.3a
