@@ -90,3 +90,16 @@ services:
     volumes:
       - ./data:/data:ro
       - ./backups:/backups
+
+  mc-discord-notifier:
+    build:
+      context: ./notifier
+      dockerfile: Dockerfile
+    depends_on:
+      mc:
+        condition: service_healthy
+    environment:
+      DISCORD_BOT_TOKEN: "${DISCORD_BOT_TOKEN}"
+      DISCORD_USER_IDS: "${DISCORD_USER_IDS}"
+    restart: "no"
+    stop_grace_period: 30s

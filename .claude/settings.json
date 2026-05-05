@@ -1,6 +1,7 @@
 {
   "permissions": {
     "deny": [
+      "Read(./.env)",
       "Read(./data/server.properties)",
       "Read(./data/ops.json)",
       "Read(./data/whitelist.json)",
