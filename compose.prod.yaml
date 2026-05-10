@@ -1,0 +1,17 @@
+services:
+  mc:
+    volumes:
+      - mc-data:/data
+
+  mc-restore-backup:
+    volumes:
+      - mc-backups:/backups:ro
+      - mc-data:/data
+
+  mc-backup:
+    volumes:
+      - mc-data:/data:ro
+      - mc-backups:/backups
+volumes:
+  mc-data:
+  mc-backups:

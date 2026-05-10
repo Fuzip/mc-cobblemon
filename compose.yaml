@@ -48,7 +48,7 @@ services:
         treechop:0.19.3a
         trinkets:3.10.0
         vanilla-permissions:0.3.3+1.21.1
-        waystones:21.1.30+fabric-1.21.1
+        waystones:21.1.32+fabric-1.21.1
       MODRINTH_DOWNLOAD_DEPENDENCIES: "none"
       # Memory
       INIT_MEMORY: "4G"
@@ -62,7 +62,7 @@ services:
       PVP: "FALSE"
     restart: "unless-stopped"
     volumes:
-      - "./data:/data"
+      - ./data:/data
 
   # "init" container for mc to restore the data volume when empty
   mc-restore-backup:
